@@ -14,16 +14,20 @@
 Full Minecraft survival server configuration for the private Minecraft SMP community Cubed. 
 
 <!-- WARNING -->
-## ⚠️ Proceed with caution
+## ⚠️ Warning
 I am not a proper source of support for this configuration. Any assistance you need may need with this setup, either contact the plugin author in question or do your research on the topic. I'm not properly qualified to help with the issues you may encounter from using this setup. All I can say is that it works fine on our systems and therefore should on yours too.
 
 <!-- INTRO -->
 ## ▶️ Run it yourself
-You can easily run this survival server configuration on your machine. All you need to do is clone this repository and boot up the server, and agree to the Mojang EULA.
-
-All configuration files for plugins and the server itself are included, but all the plugins and server software itself is not pre-bundled. This is to comply with the terms from some authors of the specific resources.
+You can easily run this survival server configuration on your machine. All you need to do is clone this repository and boot up the server, and agree to the Mojang EULA. 
 
 To run the server as optimized as possible, I'd suggest studying [this article](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/) about JVM startup arguments posted by Aikar. It can be a huge savior for any server running newer versions of Minecraft.
+
+<!-- MISSING FILES -->
+## 🔎 Missing files
+To comply with terms from some of the authors of the plugins used in this configuration, we have not included all the required files for that plugin. The list below tells you what you have to find yourself.
+- Vulcan (anti-cheat)     : .jar
+- ServerSleeper (performance)     : .jar, license key
 
 <!-- CREDITS -->
 ## ❤️ Credits
