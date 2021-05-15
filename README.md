@@ -10,7 +10,7 @@
 </p>
 
 <!-- ABOUT -->
-## ⚔️ cubed-survival
+# ⚔️ cubed-survival
 Full Minecraft survival server configuration for the private Minecraft SMP community Cubed. 
 
 <!-- WARNING -->
