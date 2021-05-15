@@ -26,8 +26,8 @@ To run the server as optimized as possible, I'd suggest studying [this article](
 <!-- MISSING FILES -->
 ## 🔎 Missing files
 To comply with terms from some of the authors of the plugins used in this configuration, we have not included all the required files for that plugin. The list below tells you what you have to find yourself.
-- Vulcan (anti-cheat)     : .jar
-- ServerSleeper (performance)     : .jar, license key
+- ``Vulcan (anti-cheat)``          : .jar
+- ``ServerSleeper (performance)``          : .jar, license key
 
 <!-- CREDITS -->
 ## ❤️ Credits
