@@ -1,0 +1,28 @@
+&e&lGameplay rules:
+&71&8) &fInappropriate item names are prohibited. 
+&72&8) &fAbuse of a glitch/bug will result in a ban.
+&73&8) &fBuilding inappropriate content will result in a ban.
+&74&8) &fKnowingly assisting with a hacker will result in a ban.
+&75&8) &fLying to staff members in Discord or in-game will result in a ban.
+&76&8) &fThe use of a hacked client or any unfair advantage will result in a ban by staff or the anti-cheat. This includes unapproved mods.
+&77&8) &fThe use of x-ray or an x-ray texture pack will result in a ban.
+&78&8) &fThe use of an autoclicker or a macro that serves the same purpose as an autoclicker will result in a ban by staff or the anti-cheat.
+&79&8) &fThe repeated killing of users without a proper reason will be punished.
+&e&lChat rules:
+&71&8) &fThe /helpop command is only to be used for questions and requesting staff to message you. 
+&72&8) &fThreatening a player with “ddosing” or “doxing” will result in a permanent ban. 
+&73&8) &fAdvertising another Minecraft server via a discord link, or server IP will result in a ban.
+&74&8) &fAny form of toxicity or racism will not be tolerated and result in a temporary mute.
+&75&8) &fAny type of death threat or suicidal encouragement will result in a temporary mute.
+&76&8) &fAny form of staff or server disrespect will not be tolerated. Punishments vary.
+&77&8) &fSpamming global-chat with the same message up to 3 or more times will result in a temporary mute.
+&78&8) &fFlooding global-chat with rows of the same characters or many shortened messages will result in a temporary mute.
+&e&lPunishment related rules:
+&71&8) &fAny attempt to record a screenshare will result in a ban. Our methods are not to be shared.
+&72&8) &fClearing your recycling bin before a screenshare will result in an instant ban.
+&73&8) &fAny attempt to evade a ban on another account will result in a permanent IP ban.
+&74&8) &fAny attempt to evade a mute on another account will result in an additional mute.
+&75&8) &fLying to staff members in Discord or in-game will result in a ban.
+&e&lOther rules:
+&71&8) &fRules can subject to change at any time. 
+&72&8) &fIt is the staff teams final decision when issuing a punishment.

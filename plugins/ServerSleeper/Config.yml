@@ -1,0 +1,33 @@
+General:
+  Prefix: §8[§bSquared§8]§r §7
+  NoPerms: §8(§c!§8) §7Unknown command or you don't have the required permission(s).
+  UseOnlyCron: false
+Command:
+  ToogleSleep:
+    Enabled: §aServerSleeper was enabled.
+    Disabled: §cServerSleeper was disable.
+Login:
+  FastLogin: false
+  KickMessage: §cServer was in standby.%n§7Please reconnect once again.
+Tasks:
+  ControllerTask:
+    FirstPlayerCheck: 30
+    PlayerCheckerDelay: 30
+    DisableWhileCronjobRunning: true
+  SleepTask:
+    DisableOnServerPing: false
+    DisableOnConsoleCommand: true
+    SleepingTimePerTick: 1200
+Updater:
+  UseUpdateChecker: false
+  AutoUpdate:
+    UseAutoUpdate: false
+    LicenseKey: REDACTED
+  IngameNotifyForUpdate: false
+ConfigVersion: 5
+Cronjobs:
+  Enabled: false
+  EnableSleep:
+  - 0 0 22 ? * * *
+  DisableSleep:
+  - 0 0 8 ? * * *

@@ -1,0 +1,148 @@
+Trinket:
+    Item_Information:
+        Item_Name: "&bTrap Card"
+        Item_Type: 264
+        Item_Lore: "&7Left-click to set the owner.|&r|&7Explodes when:|&7- picked up|&7- shot out of a dispenser|&7- a chest containing this item is opened|&r|&7&oOwners cannot trigger their own traps."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    SignShops:
+        Enable: true
+        Price: 388-26
+        Sign_Gun_ID: 3
+    Explosive_Devices:
+        Enable: true
+        Device_Type: trap
+        Device_Info: true-true-false-false-false
+        Sounds_Deploy: ITEM_PICKUP-2-0-0
+        Message_Trigger_Placer: "&c<victim> has activated your trap card!"
+        Message_Trigger_Victim: "&cYou have triggered <shooter>'s trap card!"
+        Sounds_Trigger: SHEEP_IDLE-2-1-0
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 50
+        Explosion_No_Grief: true
+        Enable_Owner_Immunity: true
+        Explosion_Radius: 5
+        Explosion_Potion_Effect: POISON-100-2,HUNGER-100-2
+        Explosion_Delay: 10
+        Sounds_Explode: WITHER_SHOOT-2-2-0
+
+Putty:
+    Item_Information:
+        Item_Name: "&cRemote Grenade"
+        Item_Type: 404
+        Item_Lore: "&7Remote throwable explosives.|&r|&7&oRight-click to throw.|&7&oLeft-click to detonate."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    SignShops:
+        Enable: true
+        Price: 388-22
+        Sign_Gun_ID: 4
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,10,159,159~14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Delay: 16
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+    Extras:
+        One_Time_Use: true
+        
+Grenade:
+    Item_Information:
+        Item_Name: "&2Frag Grenade"
+        Item_Type: 402
+        Item_Lore: "&7Explodes three seconds after launch.|&r|&7&oRight-click to throw."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    SignShops:
+        Enable: true
+        Price: 388-22
+        Sign_Gun_ID: 5
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 46
+        Projectile_Speed: 10
+        Sounds_Shoot: SHOOT_ARROW-2-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 4
+        Explosion_Delay: 60
+    Extras:
+        One_Time_Use: true
+
+Flashbang:
+    Item_Information:
+        Item_Name: "&fFlashbang"
+        Item_Type: 351~8
+        Item_Lore: "&7Disorientates the target upon detonation.|&r|&7&oRight-click to throw."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    SignShops:
+        Enable: true
+        Price: 388-18
+        Sign_Gun_ID: 6
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 351~8
+        Projectile_Speed: 10
+        Sounds_Shoot: SHOOT_ARROW-2-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_No_Damage: true
+        Explosion_Radius: 6
+        Explosion_Potion_Effect: BLINDNESS-120-1,SLOW-120-1
+        Explosion_Delay: 20
+        Sounds_Victim: LEVEL_UP-1-0-0
+        Sounds_Explode: ANVIL_LAND-2-1-0
+    Extras:
+        One_Time_Use: true
+
+Nuke:
+    Item_Information:
+        Item_Name: "&eNuke"
+        Item_Type: 402
+        Item_Lore: "&7Explodes 15 seconds after thrown.|&r|&7&oRight-click to throw."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    SignShops:
+        Enable: true
+        Price: 198-48
+        Sign_Gun_ID: 8
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 100
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 46
+        Projectile_Speed: 10
+        Sounds_Shoot: SHOOT_ARROW-2-0-0
+    Explosions:
+        Enable: true
+        Knockback: 3
+        Explosion_No_Grief: false
+        Ignite_Victims: 60
+        Explosion_Radius: 13
+        Explosion_Delay: 600
+    Extras:
+        One_Time_Use: true
+        Run_Command:
+            - "@bc &fAlright, there is a fucking nuke somewhere. Where? We have no god damn clue."
