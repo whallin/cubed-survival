@@ -31,7 +31,7 @@
 # - When set to "global" this setting is effectively ignored.
 # - In all other cases, the value here is added to all players in a "server" context.
 # - See: https://luckperms.net/wiki/Context
-server: SMP
+server: CubedSMP
 
 # If the servers own UUID cache/lookup facility should be used when there is no record for a player
 # already in LuckPerms.
@@ -83,7 +83,7 @@ use-server-uuid-cache: true
 #
 # - A H2 database is the default option.
 # - If you want to edit data manually in "traditional" storage files, we suggest using YAML.
-storage-method: MySQL
+storage-method: H2
 
 # The following block defines the settings for remote database storage methods.
 #
@@ -637,7 +637,7 @@ use-vault-server: false
 #
 # - If you don't want Vault operations to be server specific, set this to "global".
 # - Will only take effect if use-vault-server is set to true above.
-vault-server: SMP
+vault-server: CubedSMP
 
 # If global permissions should be considered when retrieving meta or player groups
 vault-include-global: true
