@@ -43,3 +43,10 @@
   # Sets the server to use for profiles.
   url = "https://flare.airplane.gg"
 
+# Settings for things that don't belong elsewhere
+[misc]
+  disable-method-profiler = true
+
+# Configures settings for generic entities
+[entities]
+  despawn-check-freq = 8
