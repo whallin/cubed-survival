@@ -440,14 +440,14 @@ settings:
   # This is the max file size (in KB) before the violations.txt should be zipped and put into the logs folder
   max-logs-file-size: 7500
   # If you have a bungee network and want to have a specific server name for punishment/alert messages, etc
-  server-name: SMP
+  server-name: CubedSMP
   # Whether or not alert messages should be sent on the main thread or asynchronously. If your server is on bungee, it is recommended to keep this
   # disabled as sending large chat component messages with so much info (hover, click commands, etc) like the alert commands can
   # sometimes cause people to be kicked for 'The server you were on has went down' or something.
   # TLDR:
   # - Bungeecord Networks: leave this FALSE
   # - Single servers: set this to TRUE to save some performance
-  async-alerts: true
+  async-alerts: false
   # Whether or not the API should be enabled. If you want to hook into Vulcan and do anything fancy, then enable this, however
   # the majority of people will never use this and disabling it allows for less runnables and more performance as the events dont
   # need to be called at all (they are also forced to be called sync, so this is a win win performance gain)
